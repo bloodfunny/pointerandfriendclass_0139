@@ -24,3 +24,10 @@ void manusia::showNilaipelajar(pelajar& a)
 
 }
 
+int main()
+{
+    manusia budi;
+    pelajar pBudi;
+    budi.showNilaipelajar(pBudi);
+    return 0;
+}
