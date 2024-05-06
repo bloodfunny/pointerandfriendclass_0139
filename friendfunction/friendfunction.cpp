@@ -11,4 +11,10 @@ public:
 
 };
 
+void setnama(mahasiswa& a, string pNama)
+{
+    a.nama = pNama;
+}
+
+
 
