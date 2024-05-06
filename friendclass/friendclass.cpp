@@ -18,4 +18,8 @@ class siswa
 private:
     int id;
 
+public:
+    void setId(int pId);
+    void displayall(orang& a);
+
 };
