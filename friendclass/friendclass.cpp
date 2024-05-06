@@ -24,4 +24,9 @@ public:
 
 };
 
-void siswa ::displayall 
+void siswa::displayall(orang& a)
+{
+    cout << id << endl
+        << a.nama;
+}
+
