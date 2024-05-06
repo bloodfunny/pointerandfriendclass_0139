@@ -3,7 +3,7 @@
 using namespace std;
 
 class siswa;
-class prang
+class orang
 {
 private:
     string nama;
@@ -13,7 +13,9 @@ public:
     friend class siswa;
 };
 
-class siswa;
+class siswa
 {
+private:
+    int id;
 
-}
+};
