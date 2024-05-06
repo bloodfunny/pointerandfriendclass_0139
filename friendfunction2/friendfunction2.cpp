@@ -18,3 +18,9 @@ public:
     friend void manusia::showNilaipelajar(pelajar& a);
 };
 
+void manusia::showNilaipelajar(pelajar& a)
+{
+    std::cout << x.nilai;
+
+}
+
