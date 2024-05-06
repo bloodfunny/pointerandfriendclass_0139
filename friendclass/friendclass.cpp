@@ -30,3 +30,8 @@ void siswa::displayall(orang& a)
         << a.nama;
 }
 
+void orang::setNama(string pNama)
+{
+    nama = pNama;
+}
+
