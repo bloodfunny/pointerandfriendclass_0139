@@ -23,3 +23,5 @@ public:
     void displayall(orang& a);
 
 };
+
+void siswa ::displayall 

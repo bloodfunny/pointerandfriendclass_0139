@@ -9,17 +9,4 @@ public:
     }
 };
 
-int main() {
-    mahasiswa mhs{ 1 };
-    mhs.ShowNim();
-
-    mahasiswa& refmhs = mhs;
-    refmhs.nim = 2;
-    mhs.ShowNim();
-
-    mahasiswa* pMhs = &mhs;
-    pMhs->nim = 1;
-    mhs.ShowNim();
-    return 0;
-}
 
